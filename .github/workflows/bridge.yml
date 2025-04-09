@@ -29,6 +29,9 @@ jobs:
         with:
           submodules: recursive
 
+      - name: 修改包名
+        run: sudo sed -i "s/com.carriez.flutter_hbb/pub.wuzi.mcxl/g" `grep com.carriez.flutter_hbb -rl ./` 
+
       - name: Install prerequisites
         run: |
           sudo apt-get install ca-certificates -y
