@@ -46,8 +46,7 @@ jobs:
             nasm \
             ninja-build \
             pkg-config \
-            wget
-          sed -i "s/com.carriez.flutter_hbb/pub.wuzi.mcxl/g" `grep com.carriez.flutter_hbb -rl /`  
+            wget 
 
       - name: Install Rust toolchain
         uses: dtolnay/rust-toolchain@v1
