@@ -1,4 +1,4 @@
-package com.carriez.flutter_hbb
+package pub.wuzi.mcxl
 
 /**
  * Handle events from flutter
